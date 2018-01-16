@@ -1,0 +1,4 @@
+1a) The function g sets t[k] = t[k]. t[k] is true so the or operator will return t[k].
+
+1b) The function h returns the absolute value of a. When (a > 0) is true the and operator returns a. Then the statement becomes a or -1, so the or operator returns a. When (a > 0) \
+is false, the and operator returns (a > 0). Then the statement becomes (a > 0) or -a, so the or operator returns -a which is a positive number.
